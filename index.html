@@ -5,18 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <title>MUSIC PLAYER</title>
 </head>
 <body>
     <div class="music-player">
-        <div class="main">
-            <div class="main__heading">
-                <p class="main__heading-status">Now playing:</p>
-                <div class="main__heading-music-name">Music name here</div>
+        <div class="dashboard">
+            <div class="dashboard__heading">
+                <p class="dashboard__heading-status">Now playing:</p>
+                <div class="dashboard__heading-music-name">Tháng tư là lời nói dối của em</div>
             </div>
             
-            <div class="main__image">
-                <img src="" alt="">
+            <div class="dashboard__image">
+                <img src="./assets/img/thang-tu-la-loi-noi-doi-cua-em.jpg" alt="">
+            </div>
+
+            <div class="dashboard__controller">
+                <i class="dashboard__controller-icon fa-solid fa-rotate-left"></i>
+                <i class="dashboard__controller-icon fa-solid fa-backward-step"></i>
+                <i class="dashboard__controller-icon fa-solid fa-play"></i>
+                <i class="dashboard__controller-icon fa-solid fa-forward-step"></i>
+                <i class="dashboard__controller-icon fa-brands fa-mixer"></i>
+            </div>
+
+            <div class="dashboard__process"></div>
+        </div>
+
+        <div class="songs">
+            <div class="songs-item">
+                <div class="songs-item__image">
+                    <img src="./assets/img/thang-tu-la-loi-noi-doi-cua-em.jpg" alt="">
+                </div>
+                
+                <div class="songs-item__info">
+                    <div class="songs-item__info-name">Tháng tư là lời nói dối của em</div>
+                    <div class="songs-item__info-singer">Hà Anh Tuấn</div>
+                </div>
+
+                <div class="songs-item__more">
+                    <i class="songs-item__more-icon fa-solid fa-ellipsis"></i>
+                </div>
             </div>
         </div>
     </div>
